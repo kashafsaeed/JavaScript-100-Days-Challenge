@@ -12,7 +12,7 @@ var a = 87;
 var b = 45;
 var c = 78;
 var d = 34 ;
-var total = a + b + b - c + d + a;
+var total = a + b + b / c + d + a;
 document.write(" value is " + total  +  " <br>"); //  95
 
 
