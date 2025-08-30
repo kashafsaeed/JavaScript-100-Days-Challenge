@@ -42,8 +42,8 @@ console.log (num1%num2); //2
 
 
 
-//Q:  Ek aur variable banao var count = 5;
-//Us pe ++
+//Q: Increment the value of count by 1 and print it.;
+
 
 var count = 5;
 count++
