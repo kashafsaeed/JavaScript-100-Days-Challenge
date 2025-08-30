@@ -17,3 +17,17 @@ console.log(str.split("").reverse().join(""));
 var str = "JavaScript";
 console.log(str.split("")); // Output: [ 'J', 'a', 'v', 'a', 'S', 'c', 'r', 'i', 'p', 't' ]
 // Explanation: The code splits the string "JavaScript" into an array of its individual characters.
+
+var str = "JavaScript";
+console.log(str.split("a")); // Output: [ 'J', 'v', 'Script' ]
+// Explanation: The code splits the string "JavaScript" at each occurrence of the character 'a', resulting in an array of substrings.
+
+
+var str = "one,two,three,four";
+console.log(str.split(",")); // Output: [ 'one', 'two', 'three', 'four' ]
+// Explanation: The code splits the string "one,two,three,four" at each comma, resulting in an array of substrings.
+
+
+var str = "JavaScript";
+console.log(str.split("r")); // Output: [ 'JavaSc', 'ipt' ]
+// Explanation: The code splits the string "JavaScript" at the character 'r', resulting in an array with two substrings: "JavaSc" and "ipt".
